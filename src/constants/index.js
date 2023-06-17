@@ -1,12 +1,10 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   cpp,
   python,
   tensorflow,
-  bootstrap,
   azure,
   aws,
   javascript,
@@ -23,6 +21,8 @@ import {
   threejs,
   notesOnCloud,
   tailwind,
+  HumanActionRecognition,
+  SalesforceLogo
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +112,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Salesforce Developer Trainee",
+    company_name: "Salesforce",
+    icon: SalesforceLogo,
+    iconBg: "#383E56",
+    date: "May 2023 - July 2023",
+    points: [
+      "Learned the skills that are relevant to the Industry from Hands-on Trainings, Projects and courses from Trailhead.",
+      "Collaborating with the development team to design and implement solutions based on business requirements. Working on the project provided by SalesForce to further enhance the skills required.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "CodeClause",
     icon: CodeClause,
@@ -127,7 +138,7 @@ const experiences = [
     title: "Deputy WebMaster",
     company_name: "Cyber Space Club, MUJ",
     icon: CSCmuj,
-    iconBg: "#E6DEDD",
+    iconBg: "383E56",
     date: "May 2022 - May 2023",
     points: [
       "Contributed to writing code in the development of the club's official website using React JS, node JS, express JS, sanity, swiper JS, API and bootstrap.",
@@ -139,19 +150,6 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    name: "Spotify Clone",
-    description:
-      "Developed a Spotify clone using Next.js to showcase my frontend development skills and create an interactive music platform.",
-    tags: [
-      {
-        name: "NextJS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: SpotifyClone,
-    source_code_link: "https://github.com/utkx2/music-streaming-application",
-  },
   {
     name: "MineCraft Clone",
     description:
@@ -172,6 +170,40 @@ const projects = [
     ],
     image: MineCraftClone,
     source_code_link: "https://github.com/utkx2/minecraft-mini",
+  },
+  {
+    name: "Human Action Recognition System",
+    description:
+      "Developed a robust human action recognition system using TensorFlow, OpenCV, numpy, and pandas.",
+      tags: [
+        {
+          name: "Tensorflow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Deep Learning",
+          color: "green-text-gradient",
+        }
+      ],
+    image: HumanActionRecognition,
+    source_code_link: "https://github.com/utkx2/Human-Action-Recognition"
+  },
+  {
+    name: "Spotify Clone",
+    description:
+      "Developed a Spotify clone using Next.js to showcase my frontend development skills and create an interactive music platform.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: SpotifyClone,
+    source_code_link: "https://github.com/utkx2/music-streaming-application",
   },
   {
     name: "Heart Disease Predictions System",

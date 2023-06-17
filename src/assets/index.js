@@ -27,7 +27,9 @@ import CSCmuj from "./company/CSCmuj.png"
 import SpotifyClone from "./SpotifyClone.png";
 import MineCraftClone from "./MinecraftClone.png";
 import HDPS from "./HeartDiseaseProductionSystem.png";
-import notesOnCloud from "./notesOnCloud.png"
+import notesOnCloud from "./notesOnCloud.png";
+import HumanActionRecognition from "./Human-Action-Recognition.png";
+import SalesforceLogo from "./SalesforceLogo.png"
 
 export {
   backend,
@@ -56,5 +58,7 @@ export {
   SpotifyClone,
   MineCraftClone,
   HDPS,
-  notesOnCloud
+  notesOnCloud,
+  HumanActionRecognition,
+  SalesforceLogo
 };

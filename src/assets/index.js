@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import CodeClause from "./company/CodeClause.png"
 import CSCmuj from "./company/CSCmuj.png"
+import Stoild from "./company/Stoild.jpg";
 
 import SpotifyClone from "./SpotifyClone.png";
 import MineCraftClone from "./MinecraftClone.png";
@@ -60,5 +61,6 @@ export {
   HDPS,
   notesOnCloud,
   HumanActionRecognition,
-  SalesforceLogo
+  SalesforceLogo,
+  Stoild
 };

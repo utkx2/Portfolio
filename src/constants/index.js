@@ -22,7 +22,8 @@ import {
   notesOnCloud,
   tailwind,
   HumanActionRecognition,
-  SalesforceLogo
+  SalesforceLogo,
+  Stoild
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
@@ -112,18 +113,30 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full-Stack Developer",
+    company_name: "Stoild Private Limited",
+    icon: Stoild,
+    iconBg: "#383E56",
+    date: "July 2023 - present",
+    points: [
+      "Leading the Frontend development team to enhance efficiency and code readability.",
+      "Increased client productivity by up to 35 percent and improved code maintainability.",
+      "Conducted testing and debugging on Backend side files to insure their proper functionality."
+    ],
+  },
+  {
     title: "Salesforce Developer Trainee",
     company_name: "Salesforce",
     icon: SalesforceLogo,
     iconBg: "#383E56",
     date: "May 2023 - July 2023",
     points: [
-      "Learned the skills that are relevant to the Industry from Hands-on Trainings, Projects and courses from Trailhead.",
-      "Collaborating with the development team to design and implement solutions based on business requirements. Working on the project provided by SalesForce to further enhance the skills required.",
+      "Acquired relevant industry skills through hands-on training, projects, and courses from Trailhead.",
+      "Collaborated with the development team to design and implement solutions based on business requirements and worked on Salesforce-provided projects to further enhance skills and knowledge.",
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Full-Stack Developer",
     company_name: "CodeClause",
     icon: CodeClause,
     iconBg: "#383E56",
@@ -175,20 +188,20 @@ const projects = [
     name: "Human Action Recognition System",
     description:
       "Developed a robust human action recognition system using TensorFlow, OpenCV, numpy, and pandas.",
-      tags: [
-        {
-          name: "Tensorflow",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "OpenCV",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Deep Learning",
-          color: "green-text-gradient",
-        }
-      ],
+    tags: [
+      {
+        name: "Tensorflow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Deep Learning",
+        color: "green-text-gradient",
+      }
+    ],
     image: HumanActionRecognition,
     source_code_link: "https://github.com/utkx2/Human-Action-Recognition"
   },
@@ -246,6 +259,26 @@ const projects = [
     ],
     image: notesOnCloud,
     source_code_link: "https://github.com/utkx2/notes-on-cloud",
+  },
+  {
+    name: "(Under Development)",
+    description:
+      "Full Stack Social Media Website",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    source_code_link: "under-development",
   }
 ];
 
